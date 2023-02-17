@@ -47,16 +47,16 @@
     </div>
     <div class="datos">
       <form action="">
-        <input class="name" type="text" placeholder="Nombre">
+        <input class="name" type="text" placeholder="Nombre" required>
       </form>
       <form action="">
         <input class="lastname" type="text" placeholder="Apellido">
       </form>
       <form action="">
-        <input class="phone" type="text" placeholder="Teléfono">
+        <input class="phone" type="text" placeholder="Teléfono" required>
       </form>
       <form action="">
-        <select class="secure" name="seguros" id="">
+        <select class="secure" name="seguros" id="" required>
           <option value="si">Seguros Monterrey</option>
           <option value="Metlife"></option>
           <option value="si">Qualitas</option>
@@ -66,10 +66,11 @@
         </select>
       </form>
       <form action="">
-        <textarea class="coments" name="" id="" placeholder="Comentarios"></textarea>
+        <textarea class="coments" name="" id="" placeholder="Comentarios" required></textarea>
       </form>
       <div class="terminos">
-      <input type="checkbox" value="si"> <span class="check">He leído y acepto las <span class="red">condiciones legales</span> </span>
+      <input type="checkbox" value="si"> <span class="check">He leído y acepto las <a
+        href="#" class="red">condiciones legales</a>  </span>
     </div>
      </div>
 
