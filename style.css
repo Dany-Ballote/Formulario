@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.wrap{
+  background-color: gainsboro;
+  height: 1000px;
+}
+
+.title{
+  padding: 20px 40px;
+  line-height: 35px;
+  margin-left: 30px;
+  font-weight: bolder;
+}
+
+span{
+  color:#6A9F37;
+}
+
+.pictures{
+  
+  text-align: center;
+}
+
+.imagen1{
+  display: inline-block;
+  margin-right: 130px;
+}
+
+.p1{
+  width: 180px;
+}
+.imagen2{
+  display: inline-block;
+  margin-right: 130px;
+}
+
+.p2{
+  width: 200px;
+}
+.imagen3{
+  display: inline-block;
+  margin-right: 150px;
+}
+
+.p3{
+  width: 100px;
+}
+
+.pictures2{
+ 
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.imagen4{
+  display: inline-block;
+  margin-right: 120px;
+}
+
+.p4{
+  width: 180px;
+}
+.imagen5{
+  display: inline-block;
+  margin-right: 120px;
+}
+
+.p5{
+  width: 200px;
+}
+.imagen6{
+  display: inline-block;
+  margin-right: 120px;
+}
+
+.p6{
+  width: 130px;
+}
+
+.cuadro{
+  border: 2px solid gray;
+  text-align: center;
+  width: 1000px;
+  height: 600px;
+  margin: auto;
+  border-radius: 15px;
+  background-color: #EEEEEE;
+}
+
+.text2{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.text3{
+  color: #ADADAD;
+  margin-bottom: 20px;
+}
+
+.name{
+  width: 800px;
+  height: 30px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.lastname{
+  width: 800px;
+  height: 30px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.phone{
+  width: 800px;
+  height: 30px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.secure{
+  width: 800px;
+  height: 30px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.coments{
+  width: 800px;
+  height: 100px;
+  padding-left: 20px;
+}
+
+.terminos{
+  margin-top: 30px;
+  text-align: left;
+  margin-left: 100px;
+}
+.check{
+  color: #000;
+
+}
+
+.red{
+  color: red;
+  text-decoration: underline;
+}
+
+.info{
+  background-color: #F28705;
+  width: 400px;
+  border-radius: 3px;
+  padding: 5px 60px;
+  margin:auto;
+  margin-top: 30px;
+}
+
+.btn{
+  text-decoration: none;
+  color: #EEEEEE;
+  font-weight: bolder;
+}
